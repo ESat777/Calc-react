@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #f4fefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.screen {
+  height: 6rem;
+  padding-right: 4px;
+  margin-bottom: 4rem;
+  border-radius: 10px;
+  background-color: #e9f5ff;
+  text-align: end;
+}
+
+.wrapper {
+  background: #c9e1ee;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 1rem;
+  box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+}
+
+.buttonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .15rem;
+}
+
+.button {
+  background: #e9f0f4;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #242424;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  background-color: rgb(194, 194, 191);
+  color: black;
+}
+
+.equals {
+  background: #7764648b;
+  color: #e9f0f4;
+  grid-column: 3/5;
+  border: 10px rgb(235, 25, 25);
+}
+
+.opt {
+  background: #7764648b;
+  color: #e9f0f4;
+}
+.reset{
+  background-color: rgb(188, 157, 79);
+  color: #e9f0f4;
+}
+.reset:hover{
+  color: red;
+}
